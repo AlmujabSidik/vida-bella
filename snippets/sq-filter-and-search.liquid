@@ -1,0 +1,75 @@
+<div class="sq-app">
+    <sq-config></sq-config>
+    <sq-url-manager></sq-url-manager>
+    <div class="sq-searchbox">
+        <sq-search-box placeholder="Search..."></sq-search-box>
+    </div>
+    <div class="sq-filter-main" style="visibility:hidden;" v-if="!store.noContent">
+        <div id="overlay" class="sq-overlay" onclick="removeClass()"></div>
+        <div class="sq-desktop-filter-header-title">Filter by</div>
+        <div class="sq-filter-header">
+            <div class="sq-filter-header-title">Filter by</div>
+            <div class="sq-filter-header-clear">
+                <sq-clear>
+                    <button class="sq-clear-button">Clear all</button>
+                </sq-clear>
+
+                <span class="sq-cross" onclick="removeClass()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path
+                    d="M4.70703 3.29297L3.29297 4.70703L10.5859 12L3.29297 19.293L4.70703 20.707L12 13.4141L19.293 20.707L20.707 19.293L13.4141 12L20.707 4.70703L19.293 3.29297L12 10.5859L4.70703 3.29297Z"
+                    fill="#23263B" />
+          </svg>
+        </span>
+            </div>
+            <div class="sq-filter-bottom" onclick="removeClass()">
+                <span>Apply Filter</span>
+            </div>
+        </div>
+        <sq-applied-filter></sq-applied-filter>
+        <sq-clear v-if="store.filters?.flatMap(x=>x.items)?.filter(x=>!!x?.selected)?.length > 0">
+            <div class="sq-clear-button-desktop">Clear all</div>
+        </sq-clear>
+
+        <sq-filter-group v-if="store.results.length > 0">
+        </sq-filter-group>
+
+    </div>
+
+    <div class="sparq-container" style="visibility:hidden;">
+        <div class="sparq-mobile-filter">
+            <sq-sort></sq-sort>
+            <div class="sparq-mobile-filterby" onclick="toggleFilter()">
+        <span>
+          <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-filter" viewBox="0 0 64 64">
+            <path d="M48 42h10M48 42a5 5 0 1 1-5-5 5 5 0 0 1 5 5zM7 42h31M16 22H6M16 22a5 5 0 1 1 5 5 5 5 0 0 1-5-5zM57 22H26"></path>
+          </svg>
+          Filter</span
+        >
+            </div>
+        </div>
+
+        <div class="sparq-row-base" v-if="!store.noContent">
+            <div class="sparq-product-number">
+                {% raw %}
+                    <span>{{store.totalHits}} products</span>
+
+                {% endraw %}
+            </div>
+            <div class="sq-right-elements">
+                <div class="sq-dropdown">
+                    <sq-sort></sq-sort>
+                </div>
+            </div>
+        </div>
+        <sq-no-content></sq-no-content>
+        <sq-grid-loader></sq-grid-loader>
+        <sq-data-grid>
+            <template #tpl="item">
+                {% render 'sq-product' %}
+            </template>
+        </sq-data-grid>
+        <sq-sy-pager v-if="store.results.length || !store.noContent"></sq-sy-pager>
+    </div>
+
+</div>

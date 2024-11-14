@@ -1,0 +1,123 @@
+<div class="page-width">
+  <div class="flex-container-icons">
+    {% for block in section.blocks %}
+      <div class="flex-container__inner" {{ block.shopify_attributes }}>
+        <img class="lazyload" src="{{ block.settings.icon | img_url: '200x' }}" loading="lazy" alt="{{ block.settings.icon.alt }}">
+        <div class="delivery-title__main">
+          <h4 class="delivery-title">{{ block.settings.title }}</h4>
+          <div class="delivery-content">{{ block.settings.content }}</div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<style>
+  #shopify-section-{{ section.id }} {
+    background: {{ section.settings.bg_m }};
+    padding: 30px 0;
+  }
+  #shopify-section-{{ section.id }} .flex-container-icons {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  #shopify-section-{{ section.id }} .flex-container__inner img {
+    min-width: 65px;
+    width: 65px;
+  }
+  #shopify-section-{{ section.id }} .flex-container__inner {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  #shopify-section-{{ section.id }} .delivery-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    letter-spacing: normal;
+  }
+  #shopify-section-{{ section.id }} .delivery-content {
+    line-height: normal;
+  }
+  #shopify-section-{{ section.id }} .delivery-content p {
+    margin: 0;
+  }
+  @media screen and (min-width: 769px) {
+    #shopify-section-{{ section.id }} .flex-container-icons {
+      grid-template-columns: 1fr 1fr;
+    }
+    #shopify-section-{{ section.id }} {
+      background: {{ section.settings.bg }};
+      padding: 60px 0;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    #shopify-section-{{ section.id }} .flex-container-icons {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+</style>
+
+
+{% schema %}
+{
+  "name": "Delivery Icons",
+  "class": "delivery-icons",
+  "settings": [
+         {
+        "type": "color",
+        "id": "bg",
+        "label": "Background Section (Desktop)"
+      },
+      {
+        "type": "color",
+        "id": "bg_m",
+        "label": "Background Section (Mobile)"
+      },
+      {
+      "type": "color",
+      "id": "color",
+      "label": "Font color",
+       "default": "#000000"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Rich text"
+      }
+  ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "icon",
+            "label": "SVG link",
+            "info":"Upload SVG for losssless result"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "default": "Lorem ipsum",
+            "label": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "default": "<p>Lorem ipsum content<p>",
+            "label": "Content"
+          }
+        ]
+      }
+    ],
+  "presets": [
+    {
+      "name": "Delivery Icons",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}

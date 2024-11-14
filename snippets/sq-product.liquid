@@ -1,0 +1,39 @@
+<div class="sparq-card">
+    <div class="sparq-thumbnail-wrap">
+        <a
+                :href="'/products/' + item.handle"
+                class="sparq-loop-product"
+                :class="item.images.length >1 && item.images[1].src ? 'sq-class':''"
+        >
+            <sq-sy-image :size="300" :item="item" :show-secondary-image="true"></sq-sy-image>
+
+            <div class="sq-sold-out" v-if="item.in_stock === 0">sold out</div>
+            <div
+                    class="discount-label"
+                    v-if="item.compare_at_price && item.price && item.compare_at_price > item.price"
+            >
+                sale
+            </div>
+        </a>
+    </div>
+    <div class="sparq-bottom">
+        <div class="sparq-bottom-items">
+            <div class="sparq-product-title">
+                <a :href="'/products/' + item.handle" class="sparq-title">
+                    {% raw %} {{ item.title }}  {% endraw %}
+                </a>
+            </div>
+            <div class="sq-save">
+                <div class="sq-product-price">
+                    <sq-sy-price :item="item" :decimal-count="2"></sq-sy-price>
+                </div>
+                <div
+                        class="sq-discount-label"
+                        :class="item.compare_at_price && item.price && item.compare_at_price > item.price && item.in_stock >= 1?'':'v-h'"
+                >
+                    Save {% raw %}{{ (((item.compare_at_price - item.price))).toFixed(2) }}  {% endraw %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
