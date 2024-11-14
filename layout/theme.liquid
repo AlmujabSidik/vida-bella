@@ -88,7 +88,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
-  
+
 
   {%- if request.page_type contains 'customers/' -%}
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
@@ -112,6 +112,7 @@
     {%- sections 'popup-group' -%}
 
       <main class="main-content" id="MainContent">
+        <p>Hello</p>
         {{ content_for_layout }}
       </main>
 
@@ -145,23 +146,23 @@
   {{ 'custom.js' | asset_url | script_tag }}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    
+
     const urlParams = new URLSearchParams(window.location.search);
     const sortByHandle = urlParams.get('sort_by');
-    
+
     if (sortByHandle) {
         const gridItems = document.querySelectorAll('.grid__item');
         const itemsArray = Array.from(gridItems);
         const targetProduct = itemsArray.find(item => {
-            const productLink = item.querySelector('.grid-product__link'); 
-            const productHandle = productLink ? productLink.href.split('/').pop() : ''; 
-           
+            const productLink = item.querySelector('.grid-product__link');
+            const productHandle = productLink ? productLink.href.split('/').pop() : '';
+
             return productHandle && productHandle.toLowerCase() === sortByHandle.toLowerCase();
         });
 
         if (targetProduct) {
             console.log('Target product found:', targetProduct);
-            targetProduct.remove(); 
+            targetProduct.remove();
             const gridContainer = document.querySelector('.grid--uniform');
             gridContainer.insertBefore(targetProduct, gridContainer.firstChild);
         } else {

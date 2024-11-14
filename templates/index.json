@@ -1,1 +1,378 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slideshow-0":{"type":"image","settings":{"top_subheading":"","title":"Vida bella","title_size":52,"subheading":"Get yours during our clearance sale today","link":"shopify:\/\/collections","link_text":"SEE COLLECTIONS","link_2":"","link_text_2":"","color_accent":"#000000","text_align":"vertical-center horizontal-center","image":"shopify:\/\/shop_images\/Best_Sellers_Dresses.jpg","parallax_direction":"top","overlay_opacity":30}}},"block_order":["slideshow-0"],"settings":{"section_height":"750px","mobile_height":"auto","parallax":false,"style":"bars","autoplay":true,"autoplay_speed":7,"lazyload_images":true}},"rich-text":{"type":"rich-text","blocks":{"heading":{"type":"heading","settings":{"title":"About us"}},"text":{"type":"text","settings":{"enlarge_text":false,"text":"<p>Welcome to Vida Bella, where timeless elegance meets contemporary style. With a sharp focus on detail and the latest trends, we combine the exclusivity of haute couture with the accessibility of modern fashion. Our curated collections embody the beautiful life that our name represents, allowing you to enhance your personal style with ease and confidence. Each Vida Bella piece is thoughtfully designed to bring luxury and sophistication to your everyday wardrobe, making every moment an opportunity to shine.<\/p>"}}},"block_order":["heading","text"],"settings":{"align_text":"center","narrow_column":true,"divider":false}},"featured-collection":{"type":"featured-collection","custom_css":[".section-header {display: flex; justify-content: space-between; align-items: center;}",".section-header__link {margin-top: 0px;}",".custom_seciont {display: none;}","h2 {font-size: 20px;}"],"settings":{"title":"New Arrivals","home_featured_products":"new-arrivals","per_row":4,"rows":1,"mobile_scrollable":false,"view_all":true,"divider":false}},"text_and_image_MDRCKh":{"type":"text-and-image","custom_css":[".index-section {background-color: #f3f3f3;}",".feature-row__images {padding: 60px;}","@media only screen and (max-width: 768px) {.index-section {padding: 40px 0px; }}"],"settings":{"image":"shopify:\/\/shop_images\/iStock-535484658.jpg","image_mask":"none","image2_mask":"none","subtitle":"","title":"Made with love","text":"<p>That's why we're here for you seven days a week and will be happy to help you with any questions you may have. Is the size wrong, can't find something, or do you have other comments? Let us know.<\/p>","button_label":"Shop Now","button_link":"shopify:\/\/collections\/womens-jacket","button_style":"primary","align_text":"left","image_width":"50","layout":"right","divider":false,"top_padding":true,"bottom_padding":true,"lazyload_images":true}},"featured_collections_7XWGFf":{"type":"featured-collections","blocks":{"collection_GqDh6z":{"type":"collection","settings":{"collection":"dress","title":"","focal_point":"center center"}},"collection_zc7Lea":{"type":"collection","settings":{"collection":"footwear","title":"","focal_point":"center center"}},"collection_rVwmKc":{"type":"collection","settings":{"collection":"mens-jacket","title":"","focal_point":"center center"}},"collection_MD7BKw":{"type":"collection","settings":{"collection":"pants","title":"","focal_point":"center center"}},"collection_nC4PUD":{"type":"collection","settings":{"collection":"sweater","title":"","focal_point":"center center"}},"collection_xdq7bx":{"type":"collection","settings":{"collection":"womens-jacket","title":"","focal_point":"center center"}}},"block_order":["collection_GqDh6z","collection_zc7Lea","collection_rVwmKc","collection_MD7BKw","collection_nC4PUD","collection_xdq7bx"],"custom_css":["h2 {font-size: 20px; text-align: left;}"],"settings":{"title":"Collection list","divider":false,"per_row":5,"enable_gutter":true}},"featured_collection_3piqRp":{"type":"featured-collection","disabled":true,"custom_css":[".section-header {display: flex; justify-content: space-between; align-items: center;}",".section-header__link {margin-top: 0px;}",".custom_seciont {display: none;}","h2 {font-size: 20px;}"],"settings":{"title":"New Arrivals","home_featured_products":"new-arrivals","per_row":4,"rows":1,"mobile_scrollable":false,"view_all":true,"divider":false}},"promo-grid":{"type":"promo-grid","blocks":{"promo-0":{"type":"advanced","settings":{"subheading":"Best Seller","heading":"MAXI DRESS","textarea":"Best seller 2024","cta_text1":"see collections","cta_link1":"shopify:\/\/collections\/maxi-dress-1","cta_text2":"","cta_link2":"","video_url":"","width":"33","height":800,"text_size":100,"text_align":"vertical-center horizontal-center","color_accent":"rgba(0,0,0,0)","boxed":false,"framed":true}},"advanced_6b69Kj":{"type":"advanced","settings":{"subheading":"on sale","heading":"Pants & Skirt","textarea":"Colorful summer","cta_text1":"SEE COLLECTIONS","cta_link1":"shopify:\/\/collections\/pants-skirts-2","cta_text2":"","cta_link2":"","video_url":"","width":"33","height":800,"text_size":100,"text_align":"vertical-center horizontal-center","color_accent":"rgba(0,0,0,0)","boxed":false,"framed":true}},"promo-1":{"type":"advanced","settings":{"subheading":"season special","heading":"wide leg pants","textarea":"Attention grabber","cta_text1":"See collections","cta_link1":"shopify:\/\/collections\/wide-leg-pants-2","cta_text2":"","cta_link2":"","video_url":"","width":"33","height":800,"text_size":100,"text_align":"vertical-center horizontal-center","color_accent":"rgba(0,0,0,0)","boxed":false,"framed":true}}},"block_order":["promo-0","advanced_6b69Kj","promo-1"],"disabled":true,"settings":{"full_width":true,"gutter_size":10,"space_above":false,"space_below":true,"lazyload_images":true}},"background-image-text":{"type":"background-image-text","disabled":true,"settings":{"subtitle":"","title":"Our philosophy","text":"<p>Inspired by our esteemed predecessors, we have managed to combine the quintessence of true aesthetics with the timeless modernity of the 21st century. The result is our distinctive and affordable urban style that has earned us recognition and affection.<\/p>","button_label":"","button_link":"shopify:\/\/collections\/all","layout":"right","height":750,"framed":false,"parallax":true,"parallax_direction":"top","lazyload_images":true}},"map":{"type":"map","disabled":true,"settings":{"map_title":"Get in Touch","address":"<p>Entworfen in Berlin, Deutschland<\/p><p><strong>E-Mail<br\/><\/strong>cs@hildaberlin.de<\/p><p>Mon - Fri, 9:00am - 5:30pm<br\/>Sat - Sun, 9:00am - 12:30pm<br\/><\/p>","map_address":"","api_key":"","show_button":false,"lazyload_images":true}},"ss_product_reviews_i3HNcJ":{"type":"ss-product-reviews","blocks":{"review_phBPdr":{"type":"review","settings":{"hide_image":false,"author":"Eva Maria","stars_count":5,"text":"Very pleased with this purchase! It's high-quality, perfectly fit, and delivered on time. Thanks!"}},"review_AxAzAk":{"type":"review","settings":{"hide_image":false,"author":"Anna Lena","stars_count":5,"text":"Extremely satisfied with this product! The material is soft and comfy. I recommend this for anyone."}}},"block_order":["review_phBPdr","review_AxAzAk"],"disabled":true,"settings":{"reviews_position":"below_buy","reviews_meta":"","reviews_radius":0,"review_padding_vertical":8,"review_padding_horizontal":8,"review_radius":8,"review_border_thickness":0,"image_width":60,"image_radius":8,"image_border_thickness":0,"image_ratio":"square","stars_size":14,"author_custom":false,"author_font":"josefin_sans_n4","author_size":14,"author_size_mobile":14,"author_height":130,"text_custom":false,"text_font":"josefin_sans_n4","text_size":12,"text_size_mobile":12,"text_height":130,"text_mt":4,"arrow_size":24,"arrow_size_mobile":24,"arrow_icon_size":16,"arrow_icon_size_mobile":16,"arrow_border_thickness":0,"arrow_show_desktop":true,"arrow_show_mobile":true,"review_bg_color":"#f3f3f3","review_border_color":"#000000","image_border_color":"#000000","author_color":"#000000","text_color":"#000000","arrow_color":"#000000","arrow_hover_color":"#000000","arrow_bg_color":"#f3f3f3","arrow_bg_hover_color":"#dddddd","arrow_border_color":"#f3f3f3","arrow_border_hover_color":"#dddddd","stars_color":"#000000","background_color":"#f3f3f3","background_gradient":"","border_color":"#000000","margin_top":10,"margin_bottom":10,"padding_top":0,"padding_bottom":0,"padding_horizontal":0,"padding_horizontal_mobile":0,"border_thickness":0,"lazy":true}}},"order":["slideshow","rich-text","featured-collection","text_and_image_MDRCKh","featured_collections_7XWGFf","featured_collection_3piqRp","promo-grid","background-image-text","map","ss_product_reviews_i3HNcJ"]}
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "disabled": true,
+      "settings": {
+        "section_height": "750px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "lazyload_images": true
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "About us"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Welcome to Vida Bella, where timeless elegance meets contemporary style. With a sharp focus on detail and the latest trends, we combine the exclusivity of haute couture with the accessibility of modern fashion. Our curated collections embody the beautiful life that our name represents, allowing you to enhance your personal style with ease and confidence. Each Vida Bella piece is thoughtfully designed to bring luxury and sophistication to your everyday wardrobe, making every moment an opportunity to shine.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".section-header {display: flex; justify-content: space-between; align-items: center;}",
+        ".section-header__link {margin-top: 0px;}",
+        ".custom_seciont {display: none;}",
+        "h2 {font-size: 20px;}"
+      ],
+      "settings": {
+        "title": "New Arrivals",
+        "home_featured_products": "new-arrivals",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": false,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "text_and_image_MDRCKh": {
+      "type": "text-and-image",
+      "custom_css": [
+        ".index-section {background-color: #f3f3f3;}",
+        ".feature-row__images {padding: 60px;}",
+        "@media only screen and (max-width: 768px) {.index-section {padding: 40px 0px; }}"
+      ],
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Made with love",
+        "text": "<p>That's why we're here for you seven days a week and will be happy to help you with any questions you may have. Is the size wrong, can't find something, or do you have other comments? Let us know.<\/p>",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/collections\/womens-jacket",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "featured_collections_7XWGFf": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_GqDh6z": {
+          "type": "collection",
+          "settings": {
+            "collection": "dress",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_zc7Lea": {
+          "type": "collection",
+          "settings": {
+            "collection": "footwear",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_rVwmKc": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-jacket",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_MD7BKw": {
+          "type": "collection",
+          "settings": {
+            "collection": "pants",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_nC4PUD": {
+          "type": "collection",
+          "settings": {
+            "collection": "sweater",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_xdq7bx": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-jacket",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "collection_GqDh6z",
+        "collection_zc7Lea",
+        "collection_rVwmKc",
+        "collection_MD7BKw",
+        "collection_nC4PUD",
+        "collection_xdq7bx"
+      ],
+      "custom_css": [
+        "h2 {font-size: 20px; text-align: left;}"
+      ],
+      "settings": {
+        "title": "Collection list",
+        "divider": false,
+        "per_row": 5,
+        "enable_gutter": true
+      }
+    },
+    "featured_collection_3piqRp": {
+      "type": "featured-collection",
+      "disabled": true,
+      "custom_css": [
+        ".section-header {display: flex; justify-content: space-between; align-items: center;}",
+        ".section-header__link {margin-top: 0px;}",
+        ".custom_seciont {display: none;}",
+        "h2 {font-size: 20px;}"
+      ],
+      "settings": {
+        "title": "New Arrivals",
+        "home_featured_products": "new-arrivals",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": false,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "promo-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Best Seller",
+            "heading": "MAXI DRESS",
+            "textarea": "Best seller 2024",
+            "cta_text1": "see collections",
+            "cta_link1": "shopify:\/\/collections\/maxi-dress-1",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "33",
+            "height": 800,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": true
+          }
+        },
+        "advanced_6b69Kj": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "on sale",
+            "heading": "Pants & Skirt",
+            "textarea": "Colorful summer",
+            "cta_text1": "SEE COLLECTIONS",
+            "cta_link1": "shopify:\/\/collections\/pants-skirts-2",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "33",
+            "height": 800,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": true
+          }
+        },
+        "promo-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "season special",
+            "heading": "wide leg pants",
+            "textarea": "Attention grabber",
+            "cta_text1": "See collections",
+            "cta_link1": "shopify:\/\/collections\/wide-leg-pants-2",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "33",
+            "height": 800,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": true
+          }
+        }
+      },
+      "block_order": [
+        "promo-0",
+        "advanced_6b69Kj",
+        "promo-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "gutter_size": 10,
+        "space_above": false,
+        "space_below": true,
+        "lazyload_images": true
+      }
+    },
+    "background-image-text": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "title": "Our philosophy",
+        "text": "<p>Inspired by our esteemed predecessors, we have managed to combine the quintessence of true aesthetics with the timeless modernity of the 21st century. The result is our distinctive and affordable urban style that has earned us recognition and affection.<\/p>",
+        "button_label": "",
+        "button_link": "shopify:\/\/collections\/all",
+        "layout": "right",
+        "height": 750,
+        "framed": false,
+        "parallax": true,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
+    "map": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "map_title": "Get in Touch",
+        "address": "<p>Entworfen in Berlin, Deutschland<\/p><p><strong>E-Mail<br\/><\/strong>cs@hildaberlin.de<\/p><p>Mon - Fri, 9:00am - 5:30pm<br\/>Sat - Sun, 9:00am - 12:30pm<br\/><\/p>",
+        "map_address": "",
+        "api_key": "",
+        "show_button": false,
+        "lazyload_images": true
+      }
+    },
+    "ss_product_reviews_i3HNcJ": {
+      "type": "ss-product-reviews",
+      "blocks": {
+        "review_phBPdr": {
+          "type": "review",
+          "settings": {
+            "hide_image": false,
+            "author": "Eva Maria",
+            "stars_count": 5,
+            "text": "Very pleased with this purchase! It's high-quality, perfectly fit, and delivered on time. Thanks!"
+          }
+        },
+        "review_AxAzAk": {
+          "type": "review",
+          "settings": {
+            "hide_image": false,
+            "author": "Anna Lena",
+            "stars_count": 5,
+            "text": "Extremely satisfied with this product! The material is soft and comfy. I recommend this for anyone."
+          }
+        }
+      },
+      "block_order": [
+        "review_phBPdr",
+        "review_AxAzAk"
+      ],
+      "disabled": true,
+      "settings": {
+        "reviews_position": "below_buy",
+        "reviews_meta": "",
+        "reviews_radius": 0,
+        "review_padding_vertical": 8,
+        "review_padding_horizontal": 8,
+        "review_radius": 8,
+        "review_border_thickness": 0,
+        "image_width": 60,
+        "image_radius": 8,
+        "image_border_thickness": 0,
+        "image_ratio": "square",
+        "stars_size": 14,
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 14,
+        "author_size_mobile": 14,
+        "author_height": 130,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 12,
+        "text_size_mobile": 12,
+        "text_height": 130,
+        "text_mt": 4,
+        "arrow_size": 24,
+        "arrow_size_mobile": 24,
+        "arrow_icon_size": 16,
+        "arrow_icon_size_mobile": 16,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "review_bg_color": "#f3f3f3",
+        "review_border_color": "#000000",
+        "image_border_color": "#000000",
+        "author_color": "#000000",
+        "text_color": "#000000",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#000000",
+        "arrow_bg_color": "#f3f3f3",
+        "arrow_bg_hover_color": "#dddddd",
+        "arrow_border_color": "#f3f3f3",
+        "arrow_border_hover_color": "#dddddd",
+        "stars_color": "#000000",
+        "background_color": "#f3f3f3",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 10,
+        "margin_bottom": 10,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "rich-text",
+    "featured-collection",
+    "text_and_image_MDRCKh",
+    "featured_collections_7XWGFf",
+    "featured_collection_3piqRp",
+    "promo-grid",
+    "background-image-text",
+    "map",
+    "ss_product_reviews_i3HNcJ"
+  ]
+}

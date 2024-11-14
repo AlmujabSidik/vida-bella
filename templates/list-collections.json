@@ -1,1 +1,76 @@
-{"sections":{"main":{"type":"list-collections-template","blocks":{"collection_BmMWDw":{"type":"collection","settings":{"collection":"accessories"}},"collection_XdpFXU":{"type":"collection","settings":{"collection":"bottoms"}},"collection_9jPTpY":{"type":"collection","settings":{"collection":"dresses"}},"collection_CncJdq":{"type":"collection","settings":{"collection":"jackets"}},"collection_T8fLCB":{"type":"collection","settings":{"collection":"shoes"}},"collection_9N9CgT":{"type":"collection","settings":{"collection":"swimwear"}},"collection_hM9xmY":{"type":"collection","settings":{"collection":"tops"}},"collection_KqnbnU":{"type":"collection","settings":{"collection":"underwear"}}},"block_order":["collection_BmMWDw","collection_XdpFXU","collection_9jPTpY","collection_CncJdq","collection_T8fLCB","collection_9N9CgT","collection_hM9xmY","collection_KqnbnU"],"settings":{"title_enable":true,"display_type":"selected","sort":"alphabetical","grid":"4"}},"logo-list":{"type":"logo-list","blocks":{"logo1":{"type":"logo_image","settings":{"link":""}},"logo2":{"type":"logo_image","settings":{"link":""}},"logo3":{"type":"logo_image","settings":{"link":""}},"logo4":{"type":"logo_image","settings":{"link":""}},"logo5":{"type":"logo_image","settings":{"link":""}},"logo6":{"type":"logo_image","settings":{"link":""}}},"block_order":["logo1","logo2","logo3","logo4","logo5","logo6"],"disabled":true,"settings":{"title":"Our brands","logo_opacity":76,"divider":false}}},"order":["main","logo-list"]}
+{
+  "sections": {
+    "main": {
+      "type": "list-collections-template",
+      "blocks": {
+        "collection_BmMWDw": {
+          "type": "collection",
+          "settings": { "collection": "accessories" }
+        },
+        "collection_XdpFXU": {
+          "type": "collection",
+          "settings": { "collection": "bottoms" }
+        },
+        "collection_9jPTpY": {
+          "type": "collection",
+          "settings": { "collection": "dresses" }
+        },
+        "collection_CncJdq": {
+          "type": "collection",
+          "settings": { "collection": "jackets" }
+        },
+        "collection_T8fLCB": {
+          "type": "collection",
+          "settings": { "collection": "shoes" }
+        },
+        "collection_9N9CgT": {
+          "type": "collection",
+          "settings": { "collection": "swimwear" }
+        },
+        "collection_hM9xmY": {
+          "type": "collection",
+          "settings": { "collection": "tops" }
+        },
+        "collection_KqnbnU": {
+          "type": "collection",
+          "settings": { "collection": "underwear" }
+        }
+      },
+      "block_order": [
+        "collection_BmMWDw",
+        "collection_XdpFXU",
+        "collection_9jPTpY",
+        "collection_CncJdq",
+        "collection_T8fLCB",
+        "collection_9N9CgT",
+        "collection_hM9xmY",
+        "collection_KqnbnU"
+      ],
+      "settings": {
+        "title_enable": true,
+        "display_type": "selected",
+        "sort": "alphabetical",
+        "grid": "4"
+      }
+    },
+    "logo-list": {
+      "type": "logo-list",
+      "blocks": {
+        "logo1": { "type": "logo_image", "settings": { "link": "" } },
+        "logo2": { "type": "logo_image", "settings": { "link": "" } },
+        "logo3": { "type": "logo_image", "settings": { "link": "" } },
+        "logo4": { "type": "logo_image", "settings": { "link": "" } },
+        "logo5": { "type": "logo_image", "settings": { "link": "" } },
+        "logo6": { "type": "logo_image", "settings": { "link": "" } }
+      },
+      "block_order": ["logo1", "logo2", "logo3", "logo4", "logo5", "logo6"],
+      "disabled": true,
+      "settings": {
+        "title": "Our brands",
+        "logo_opacity": 76,
+        "divider": false
+      }
+    }
+  },
+  "order": ["main", "logo-list"]
+}
