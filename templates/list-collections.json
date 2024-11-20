@@ -5,35 +5,51 @@
       "blocks": {
         "collection_BmMWDw": {
           "type": "collection",
-          "settings": { "collection": "accessories" }
+          "settings": {
+            "collection": "accessories"
+          }
         },
         "collection_XdpFXU": {
           "type": "collection",
-          "settings": { "collection": "bottoms" }
+          "settings": {
+            "collection": "bottoms"
+          }
         },
         "collection_9jPTpY": {
           "type": "collection",
-          "settings": { "collection": "dresses" }
+          "settings": {
+            "collection": "dresses"
+          }
         },
         "collection_CncJdq": {
           "type": "collection",
-          "settings": { "collection": "jackets" }
+          "settings": {
+            "collection": "jackets"
+          }
         },
         "collection_T8fLCB": {
           "type": "collection",
-          "settings": { "collection": "shoes" }
+          "settings": {
+            "collection": "shoes"
+          }
         },
         "collection_9N9CgT": {
           "type": "collection",
-          "settings": { "collection": "swimwear" }
+          "settings": {
+            "collection": "swimwear"
+          }
         },
         "collection_hM9xmY": {
           "type": "collection",
-          "settings": { "collection": "tops" }
+          "settings": {
+            "collection": "tops"
+          }
         },
         "collection_KqnbnU": {
           "type": "collection",
-          "settings": { "collection": "underwear" }
+          "settings": {
+            "collection": "underwear"
+          }
         }
       },
       "block_order": [
@@ -56,14 +72,51 @@
     "logo-list": {
       "type": "logo-list",
       "blocks": {
-        "logo1": { "type": "logo_image", "settings": { "link": "" } },
-        "logo2": { "type": "logo_image", "settings": { "link": "" } },
-        "logo3": { "type": "logo_image", "settings": { "link": "" } },
-        "logo4": { "type": "logo_image", "settings": { "link": "" } },
-        "logo5": { "type": "logo_image", "settings": { "link": "" } },
-        "logo6": { "type": "logo_image", "settings": { "link": "" } }
+        "logo1": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo2": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo3": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo4": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo5": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo6": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        }
       },
-      "block_order": ["logo1", "logo2", "logo3", "logo4", "logo5", "logo6"],
+      "block_order": [
+        "logo1",
+        "logo2",
+        "logo3",
+        "logo4",
+        "logo5",
+        "logo6"
+      ],
       "disabled": true,
       "settings": {
         "title": "Our brands",
@@ -72,5 +125,8 @@
       }
     }
   },
-  "order": ["main", "logo-list"]
+  "order": [
+    "main",
+    "logo-list"
+  ]
 }
