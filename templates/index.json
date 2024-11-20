@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
@@ -26,7 +35,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Welcome to Vida Bella, where timeless elegance meets contemporary style. With a sharp focus on detail and the latest trends, we combine the exclusivity of haute couture with the accessibility of modern fashion. Our curated collections embody the beautiful life that our name represents, allowing you to enhance your personal style with ease and confidence. Each Vida Bella piece is thoughtfully designed to bring luxury and sophistication to your everyday wardrobe, making every moment an opportunity to shine.<\/p>"
+            "text": "<p>Welcome to Vida Bella, where timeless elegance meets contemporary style. With a sharp focus on detail and the latest trends, we combine the exclusivity of haute couture with the accessibility of modern fashion. Our curated collections embody the beautiful life that our name represents, allowing you to enhance your personal style with ease and confidence. Each Vida Bella piece is thoughtfully designed to bring luxury and sophistication to your everyday wardrobe, making every moment an opportunity to shine.</p>"
           }
         }
       },
@@ -50,7 +59,7 @@
       ],
       "settings": {
         "title": "New Arrivals",
-        "home_featured_products": "new-arrivals",
+        "home_featured_products": "frontpage",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": false,
@@ -70,9 +79,9 @@
         "image2_mask": "none",
         "subtitle": "",
         "title": "Made with love",
-        "text": "<p>That's why we're here for you seven days a week and will be happy to help you with any questions you may have. Is the size wrong, can't find something, or do you have other comments? Let us know.<\/p>",
+        "text": "<p>That's why we're here for you seven days a week and will be happy to help you with any questions you may have. Is the size wrong, can't find something, or do you have other comments? Let us know.</p>",
         "button_label": "Shop Now",
-        "button_link": "shopify:\/\/collections\/womens-jacket",
+        "button_link": "shopify://collections/womens-jacket",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
@@ -182,7 +191,7 @@
             "heading": "MAXI DRESS",
             "textarea": "Best seller 2024",
             "cta_text1": "see collections",
-            "cta_link1": "shopify:\/\/collections\/maxi-dress-1",
+            "cta_link1": "shopify://collections/maxi-dress-1",
             "cta_text2": "",
             "cta_link2": "",
             "video_url": "",
@@ -202,7 +211,7 @@
             "heading": "Pants & Skirt",
             "textarea": "Colorful summer",
             "cta_text1": "SEE COLLECTIONS",
-            "cta_link1": "shopify:\/\/collections\/pants-skirts-2",
+            "cta_link1": "shopify://collections/pants-skirts-2",
             "cta_text2": "",
             "cta_link2": "",
             "video_url": "",
@@ -222,7 +231,7 @@
             "heading": "wide leg pants",
             "textarea": "Attention grabber",
             "cta_text1": "See collections",
-            "cta_link1": "shopify:\/\/collections\/wide-leg-pants-2",
+            "cta_link1": "shopify://collections/wide-leg-pants-2",
             "cta_text2": "",
             "cta_link2": "",
             "video_url": "",
@@ -256,9 +265,9 @@
       "settings": {
         "subtitle": "",
         "title": "Our philosophy",
-        "text": "<p>Inspired by our esteemed predecessors, we have managed to combine the quintessence of true aesthetics with the timeless modernity of the 21st century. The result is our distinctive and affordable urban style that has earned us recognition and affection.<\/p>",
+        "text": "<p>Inspired by our esteemed predecessors, we have managed to combine the quintessence of true aesthetics with the timeless modernity of the 21st century. The result is our distinctive and affordable urban style that has earned us recognition and affection.</p>",
         "button_label": "",
-        "button_link": "shopify:\/\/collections\/all",
+        "button_link": "shopify://collections/all",
         "layout": "right",
         "height": 750,
         "framed": false,
@@ -272,7 +281,7 @@
       "disabled": true,
       "settings": {
         "map_title": "Get in Touch",
-        "address": "<p>Entworfen in Berlin, Deutschland<\/p><p><strong>E-Mail<br\/><\/strong>cs@hildaberlin.de<\/p><p>Mon - Fri, 9:00am - 5:30pm<br\/>Sat - Sun, 9:00am - 12:30pm<br\/><\/p>",
+        "address": "<p>Entworfen in Berlin, Deutschland</p><p><strong>E-Mail<br/></strong>cs@hildaberlin.de</p><p>Mon - Fri, 9:00am - 5:30pm<br/>Sat - Sun, 9:00am - 12:30pm<br/></p>",
         "map_address": "",
         "api_key": "",
         "show_button": false,
