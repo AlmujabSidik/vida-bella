@@ -75,7 +75,7 @@
   {%- render 'product-template-variables', product: product, current_variant: current_variant -%}
 
   <div class="page-content page-content--product">
-    <div class="page-width">
+    <div>
 
       <div class="grid{% unless image_position == 'left' %} grid--product-images-right{% endunless %}{% if mobile_layout == 'partial' %} grid--product-images--partial{% endif %}">
         {%- if image_position == 'left' -%}
@@ -124,7 +124,7 @@
               {%- endif -%}
 
               {%- if isModal -%}
-                
+
                 <p class="h2 product-single__title">
                   {{ product.title }}
                 </p>
@@ -141,7 +141,7 @@
                      <path d="M968 0V33.5L984.5 84H1037.5L969 134.5L998 127.5L1011 166.5L968 135.5V200H1068V0H968Z" fill="#DBDBDD"></path>
                     </svg>
                       <span>
-                        4,8/5 
+                        4,8/5
                         (<span>1.664 Reviews</span>).
                       </span>
                     </p>
@@ -268,7 +268,7 @@
                           {%- endif -%}
                         </div>
                       {%- endif -%}
-                      
+
                       <div class="shop-terms-container">
                         <div
                           class="in-stock"
@@ -286,7 +286,7 @@
                     </div>
 
 
-              
+
                   {%- when 'quantity_selector' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>
                       <div class="product__quantity">
@@ -317,14 +317,14 @@
                       </div>
                     {% endif %}
 
-                                   
+
 
                   {%- when 'variant_picker' -%}
-                         
-                        
+
+
                     <div class="product-block" {% if block.settings.product_dynamic_variants_enable %}data-dynamic-variants-enabled{% endif %} {{ block.shopify_attributes }}>
-                 
-                      
+
+
                       <div class="block-size">
                         {%- unless product.has_only_default_variant -%}
                         {%- for option in product.options_with_values -%}
@@ -337,18 +337,18 @@
                               assign downcased_option = option.name | downcase
                               if downcased_option contains swatch_trigger
                                 assign is_color = true
-                              elsif swatch_trigger == 'color' and downcased_option contains 'colour' 
+                              elsif swatch_trigger == 'color' and downcased_option contains 'colour'
                                 assign is_color = true
                               endif
                             endif
 
-                                 
+
                           -%}
 
-                    
+
 
                           {%- if block.settings.picker_type == 'button' -%}
-                                                      
+
                             {%- render 'variant-button',
                               block: block,
                               product: product,
@@ -363,7 +363,7 @@
                               sizechart_index: sizechart_index
                             -%}
 
-                                 
+
 <!-- END KiwiSizing code !-->
 
                           {%- else -%}
@@ -377,19 +377,19 @@
                             -%}
                           {%- endif -%}
                         {%- endfor -%}
-                   
-  
-  
+
+
+
                       {%- endunless -%}
 
                         <div class="timer-container">
-                                      
+
                   Clearance sale ends in <span class="timer">____ ___ ___</span>
                       </div>
                       </div>
-                   
+
                     </div>
-                          
+
                   {%- when 'buy_buttons' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>
                       {%- unless product.empty? -%}
@@ -427,7 +427,7 @@
         // Get current date and time in Melbourne timezone (AEST)
         const now = new Date();
         const melbourneDate = new Date(now.toLocaleString("en-US", { timeZone: "Australia/Melbourne" }));
-        
+
         // Extract day, month, and year
         const day = String(melbourneDate.getDate()).padStart(2, '0'); // Add leading zero
         const month = String(melbourneDate.getMonth() + 1).padStart(2, '0'); // Month is zero-based
@@ -445,13 +445,13 @@
 {% endcomment %}
 
 
-                          
+
                   {%- when 'sales_point' -%}
                     {%- unless block.settings.text == blank -%}
                       <div class="product-block product-block--sales-point" {{ block.shopify_attributes }}>
                         <ul class="sales-points">
                           <li class="sales-point">
-                       
+
                             <span class="icon-and-text">
                               {% case block.settings.icon %}
                                 {% when 'checkmark' %} <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-circle-checkmark" viewBox="0 0 64 64"><path d="M52.68 24.48A22 22 0 1 1 47 15.93"/><path d="m21 32 8.5 8.5L57 13"/></svg>
