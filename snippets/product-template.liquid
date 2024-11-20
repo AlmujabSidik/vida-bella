@@ -3,6 +3,8 @@
   context - used to determine whether on the featured product or main product template
   mobile_layout
 {% endcomment %}
+{% comment %} import css {% endcomment %}
+{{ 'container.css' | asset_url | stylesheet_tag: preload: true }}
 
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant
@@ -75,7 +77,7 @@
   {%- render 'product-template-variables', product: product, current_variant: current_variant -%}
 
   <div class="page-content page-content--product">
-    <div>
+    <div class="page-container">
 
       <div class="grid{% unless image_position == 'left' %} grid--product-images-right{% endunless %}{% if mobile_layout == 'partial' %} grid--product-images--partial{% endif %}">
         {%- if image_position == 'left' -%}
