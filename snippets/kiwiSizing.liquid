@@ -14,3 +14,15 @@
  };
  {% endif %}
 </script>
+
+<!-- START KiwiSizing code !-->
+{% comment %} <div id="KiwiSizingChart"
+  data-collections="{{ product.collections | map: 'id' | join: ','}}"
+  data-tags="{{ product.tags | join: ',' | escape}}"
+  data-product="{{product.id}}"
+  data-vendor="{{product.vendor | escape}}"
+  data-product-name="{{product.title}}"
+  data-product-images="{{product.images | json| escape}}"
+  data-type="{{product.type | escape}}">
+</div> {% endcomment %}
+<!-- END KiwiSizing code !-->

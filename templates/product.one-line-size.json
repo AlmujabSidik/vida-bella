@@ -144,9 +144,6 @@
         "product_video_style": "muted"
       }
     },
-    "kiwi_sizing": {
-      "type": "kiwi-sizing"
-    },
     "17126223945bf13f2b": {
       "type": "apps",
       "settings": {
@@ -573,7 +570,6 @@
   },
   "order": [
     "main",
-    "kiwi_sizing",
     "17126223945bf13f2b",
     "sub",
     "advanced_content_Vnmzcm",
