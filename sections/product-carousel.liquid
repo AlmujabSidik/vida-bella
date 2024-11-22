@@ -1,21 +1,35 @@
 <p>Product Carousel</p>
 
-
 {% schema %}
 {
-    "name": "product-carousel",
+    "name": "Product Carousel",
     "settings": [
         {
             "type": "collection",
             "id": "collection",
-            "label": "product carousel"
+            "label": "Select Collection"
+        },
+        {
+            "type": "range",
+            "id": "products_to_show",
+            "min": 3,
+            "max": 12,
+            "step": 1,
+            "default": 6,
+            "label": "Products to show"
+        },
+        {
+            "type": "checkbox",
+            "id": "show_view_all",
+            "default": true,
+            "label": "Show view all button"
         }
-        ],
-        "presets": [
-            {
-                "name": "product-carousel",
-                "collection": "product-carousel"
-            }
-        ]
+    ],
+    "presets": [
+        {
+            "name": "Product Carousel",
+            "category": "Product"
+        }
+    ]
 }
 {% endschema %}
