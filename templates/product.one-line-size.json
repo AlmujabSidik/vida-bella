@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -151,6 +160,24 @@
         "space_around": true
       }
     },
+    "17321679043b397e47": {
+      "type": "apps",
+      "blocks": {
+        "kiwi_size_chart_recommender_kiwi_sizing_EMVkVQ": {
+          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "kiwi_size_chart_recommender_kiwi_sizing_EMVkVQ"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
     "sub": {
       "type": "product-full-width",
       "blocks": {
@@ -159,7 +186,9 @@
           "settings": {}
         }
       },
-      "block_order": ["separator_xkzzBV"],
+      "block_order": [
+        "separator_xkzzBV"
+      ],
       "settings": {
         "max_width": true
       }
@@ -178,14 +207,16 @@
         "image_AXexp7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Money-Back_Guarantee.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
           }
         }
       },
-      "block_order": ["liquid_fEhdkm", "image_AXexp7"],
+      "block_order": [
+        "liquid_fEhdkm",
+        "image_AXexp7"
+      ],
       "custom_css": [
         ".custom__item-inner {width: 75%;}",
         "@media only screen and (max-width: 768px) {.custom__item-inner {padding: 40px 0px; }}"
@@ -480,9 +511,15 @@
           }
         }
       },
-      "block_order": ["review_kiNxcQ", "review_hE6bUP", "review_8ERmY7"],
+      "block_order": [
+        "review_kiNxcQ",
+        "review_hE6bUP",
+        "review_8ERmY7"
+      ],
       "disabled": true,
-      "custom_css": ["* {text-align: left;}"],
+      "custom_css": [
+        "* {text-align: left;}"
+      ],
       "settings": {
         "reviews_position": "below_buy",
         "reviews_meta": "",
@@ -571,6 +608,7 @@
   "order": [
     "main",
     "17126223945bf13f2b",
+    "17321679043b397e47",
     "sub",
     "advanced_content_Vnmzcm",
     "product-recommendations",
