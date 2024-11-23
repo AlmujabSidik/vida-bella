@@ -49,8 +49,18 @@
         "divider": false
       }
     },
+    "product_carousel_j7gBB7": {
+      "type": "product-carousel",
+      "settings": {
+        "collection": "hydrogen",
+        "carousel_heading": "New Arrivals",
+        "products_to_show": 6,
+        "show_view_all": true
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".section-header {display: flex; justify-content: space-between; align-items: center;}",
         ".section-header__link {margin-top: 0px;}",
@@ -375,6 +385,7 @@
   "order": [
     "slideshow",
     "rich-text",
+    "product_carousel_j7gBB7",
     "featured-collection",
     "text_and_image_MDRCKh",
     "featured_collections_7XWGFf",
