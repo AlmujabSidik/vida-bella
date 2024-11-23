@@ -52,7 +52,7 @@
     "product_carousel_j7gBB7": {
       "type": "product-carousel",
       "settings": {
-        "collection": "hydrogen",
+        "collection": "automated-collection",
         "carousel_heading": "New Arrivals",
         "products_to_show": 6,
         "show_view_all": true
